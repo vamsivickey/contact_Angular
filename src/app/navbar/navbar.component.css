@@ -1,0 +1,76 @@
+/* side nav bar */
+/* html {  
+    position: relative;  
+    min-height: 100%;  
+}  
+body {  
+    padding-top: 4.5rem;  
+    margin-bottom: 4.5rem;  
+}   */
+
+.bg-dark {  
+    background-color: #3c76af!important;
+    height: 120px; 
+    color: black; 
+}  
+.nav-link:hover {  
+  transition: all 0.4s;  
+  color: black;
+}  
+/* .nav-link-collapse:after {  
+  float: right;  
+  content: '\f067';  
+  font-family: 'FontAwesome';  
+}  
+.nav-link-show:after {  
+  float: right;  
+  content: '\f068';  
+  font-family: 'FontAwesome';  
+}   */
+.nav-item ul.nav-second-level {  
+  padding-left: 0;  
+  color: black;
+}  
+.nav-item ul.nav-second-level > .nav-item {  
+  padding-left: 20px; 
+  color: black;
+ 
+}  
+@media (min-width: 992px) {  
+  .sidenav {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 300px;  
+    height: calc(100vh - 3.5rem);  
+    margin-top: 3.5rem;  
+    background: rgba(20, 105, 40, 0.605); 
+    box-sizing: border-box;  
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 120px;  
+    color: black;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=Bi0k2%2biz&id=94E0CB0C626DF4EBE69098CC23BBC1CD3EA1FC64&thid=OIP.Bi0k2-iz32f69kD-n1g1sgHaE6&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.062d24dbe8b3df67faf640fe9f5835b2%3frik%3dZPyhPs3BuyPMmA%26riu%3dhttp%253a%252f%252fwallup.net%252fwp-content%252fuploads%252f2016%252f02%252f230028-mountain-nature.jpg%26ehk%3dyQPkcdzvk5qL9H5Wc9nglIwDqQ7AavRvWRTjwLXMswY%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2824&expw=4256&q=pics&simid=608027916356245071&FORM=IRPRST&ck=BF629A2FA104BE6404D4B8D4C8DCB714&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0);
+  }  
+  .navbar-expand-lg .sidenav {  
+    flex-direction: column;  
+  }  
+  .content-wrapper {  
+    margin-left: 230px;  
+  }  
+  
+}
+
+a{
+  color: black;
+}
+
+.nav-link{
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(10 1 1 / 95%);
+}
+.hhhk{
+  float: left;
+}
